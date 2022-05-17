@@ -1,0 +1,22 @@
+.box {
+  margin-left: 10px;
+  height: 100px;
+  width: 200px;
+  background-color: blue;
+  animation: anim 1s linear;
+}
+@keyframes anim {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.box2 {
+  width: 300px;
+}
+.box3 {
+  width: 500px;
+}
